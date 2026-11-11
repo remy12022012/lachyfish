@@ -1,0 +1,14 @@
+{
+  "name": "lachy-fish",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lachy Fish: a face-fishing idle game with a global leaderboard, served from Vercel.",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "dev": "node dev.js",
+    "test": "node test/api.test.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.0"
+  }
+}
